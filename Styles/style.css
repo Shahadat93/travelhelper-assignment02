@@ -14,6 +14,9 @@ header{
     max-width: 1170px;
     margin-top: 50px;
 }
+nav{
+    margin-bottom: 30px;
+}
 
 .menubar{
     align-items: center;
@@ -31,6 +34,8 @@ header{
 }
 .menubar h3{
     font-size: 36px;
+    font-weight: 800;
+    margin-left: 10px;
 }
 
 .menubar h3 span{
@@ -43,6 +48,7 @@ header{
 .menubar .left-side li{
     list-style: none;
     margin-left: 40px;
+    font-weight: 700;
 }
 
 .menubar .left-side li a{
@@ -53,7 +59,65 @@ header{
 .menubar .left-side li a span{
     color: #FF5400;
 }
+.menubar .left-side img{
+    display: none;
+}
 
+.banner{
+    border-radius: 16px;
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    
+}
+.banner-container{
+    height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+
+}
+.banner h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.banner p{
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-weight: 400;
+    max-width: 670px;
+    padding-bottom: 40px;
+}
+.banner-container .search-box{
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 20%;
+    padding: 16px;
+}
+.search-box input{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+    margin-right: 10px;
+}
+.search-box .primary-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border: 0px;
+    color: #FFF;
+    font-weight: 700;
+    background: #FF5400;
+}
+.search-box ::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+}
 /* Header style end  */
 
 
@@ -64,3 +128,30 @@ header{
 
 
 /* Footer style end  */
+
+/* Responsive style  */
+
+@media screen and (max-width: 600px) {
+    .menubar .left-side li{
+        display: none;
+    }
+    .menubar .left-side img{
+        display: block;
+        margin-right: 40px;
+        width: 100%;
+    }
+}
+
+
+/* Medium Devices  */
+
+@media screen and (min-width:600px ) and (max-width: 960px) {
+    .menubar .left-side li{
+        display: none;
+    }
+    .menubar .left-side img{
+        display: block;
+        margin-right: 40px;
+        width: 100%;
+    }
+}
