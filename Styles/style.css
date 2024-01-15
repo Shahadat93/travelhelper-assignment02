@@ -9,7 +9,7 @@
 /* Shared style end  */
 
 /* Header style  */
-header{
+header, .popular-tour{
     margin: 0 auto;
     max-width: 1170px;
     margin-top: 50px;
@@ -106,7 +106,7 @@ nav{
     border: 0px;
     margin-right: 10px;
 }
-.search-box .primary-btn{
+.primary-btn{
     width: 150px;
     height: 50px;
     border-radius: 8px;
@@ -121,7 +121,30 @@ nav{
 }
 /* Header style end  */
 
+/* popular tour section style  */
 
+.popular-tour{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+.tour-description h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.tour-description p, .tour-description li{
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.popular-tour img{
+    max-width: 100%;
+}
+
+
+/* popular tour section style end  */
 
 
 
@@ -163,12 +186,28 @@ nav{
         width: 250px;
         height: 50px;
     }
+    .search-box ::placeholder{
+        text-align: left;
+        padding-left: 20px;
+    }
+
+
+    .popular-tour{
+        flex-direction: column;
+        margin: 0 5%;
+    }
+    .popular-tour img{
+        max-width: 90%;
+    }
+    .primary-btn{
+        width: 170px;
+    }
 }
 
 
 /* Medium Devices  */
 
-@media screen and (min-width:600px ) and (max-width: 960px) {
+@media screen and (min-width: 600px) and (max-width: 960px) {
     .menubar .left-side li{
         display: none;
     }
