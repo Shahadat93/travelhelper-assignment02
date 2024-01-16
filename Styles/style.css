@@ -118,6 +118,9 @@ nav{
     font-weight: 700;
     background: #FF5400;
 }
+.primary-btn:hover{
+    cursor: pointer;
+}
 .search-box ::placeholder{
     color: rgba(19, 19, 24, 0.50);
     text-align: center;
@@ -313,7 +316,9 @@ p, .tour-description li{
     background: #FF5400;
     margin-top: 20px;
 }
-
+.sub-box button:hover{
+    cursor: pointer;
+}
 .save-offer{
     text-align: center;
     border-radius: 16px;
