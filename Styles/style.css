@@ -216,6 +216,7 @@ p, .tour-description li{
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(2,1fr);
     gap: 5rem;
+    margin-bottom: 150px;
 }
 .service-detail .service1, .service-detail .service2, .service-detail .service3{
     width: 100%;
@@ -256,6 +257,87 @@ p, .tour-description li{
 }
 
 /* Choose section style end */
+
+/* Newsletter section style  */
+.newsletter{
+    display: flex;
+    gap: 1.5rem;
+}
+.news-box1{
+    width: 40%;
+}
+.sub-box{
+    width: 85%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 35px;
+}
+.offer-box{
+    width: 60%;
+}
+.sub-box h4{
+    color: #131318;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sub-box p{
+    width: 75%;
+}
+.sub-box input{
+    width: 80%;
+    /* height: 30px; */
+    display: block;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 20px;
+    padding: 15px;
+}
+.sub-box input::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+}
+.sub-box hr{
+    width: 88%;
+    height: 1px;
+    color: rgba(19, 19, 24, 0.10);
+}
+
+.sub-box button{
+    width: 88%;
+    height: 50px;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 1.15rem;
+    color: #FFF;
+    font-weight: 700;
+    background: #FF5400;
+    margin-top: 20px;
+}
+
+.save-offer{
+    text-align: center;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 40%;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    position: relative;
+    left: 55%;
+    bottom: 30%;
+}
+.save-offer p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-top: 20px;
+    color: #FFF;
+}
+.save-offer h3{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #FFF;
+}
+
+/* Newsletter section style end */
 
 /* Footer style */
 
@@ -361,6 +443,40 @@ p, .tour-description li{
         width: 95%;
         grid-column: 1/span 1;
     }
+
+    .newsletter{
+        flex-direction: column;
+        width: 95%;
+    }
+    .news-box1{
+        width: 85%;
+    }
+    .sub-box{
+        width: 100%;
+    }
+    .offer-box{
+        width: 85%;
+    }
+    .save-offer{
+        text-align: center;
+        border-radius: 10px;
+        background: #FF5400;
+        width: 50%;
+        height: 90px;
+        transform: rotate(-19.628deg);
+        position: relative;
+        left: 70%;
+        bottom: 125px;
+    }
+    .save-offer p{
+        font-size: .85rem;
+        padding: 10px;
+        margin-bottom: 0;
+    }
+    .save-offer h3{
+        font-size: 1rem;
+    }
+    
 }
 
 
