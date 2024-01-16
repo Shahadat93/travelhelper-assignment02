@@ -319,6 +319,9 @@ p, .tour-description li{
 .sub-box button:hover{
     cursor: pointer;
 }
+.offer-box img{
+    width: 100%;
+}
 .save-offer{
     text-align: center;
     border-radius: 16px;
@@ -481,31 +484,32 @@ footer{
     }
 
     .service-detail .service1{
-        width: 95%;
+        width: 88%;
         grid-column: 1/span 1;
     }
     .service-detail .service2{
-        width: 95%;
+        width: 88%;
         grid-column: 1/span 1;
     }
     .service-detail .service3{
-        width: 95%;
+        width: 88%;
         grid-column: 1/span 1;
     }
 
     .newsletter{
         flex-direction: column;
-        width: 95%;
+        width: 90%;
     }
     .news-box1{
         width: 85%;
     }
     .sub-box{
-        width: 100%;
+        width: 95%;
     }
     .offer-box{
-        width: 85%;
+        width: 99%;
     }
+    
     .save-offer{
         text-align: center;
         border-radius: 10px;
@@ -514,8 +518,8 @@ footer{
         height: 90px;
         transform: rotate(-19.628deg);
         position: relative;
-        left: 70%;
-        bottom: 125px;
+        left: 48%;
+        bottom: 140px;
     }
     .save-offer p{
         font-size: .85rem;
